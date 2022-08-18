@@ -38,7 +38,7 @@
 
       [TMPSPSID] [bigint] NULL,
 
-      --[InExportQueue] [bit] NULL,
+      [InExportQueue] [bit] NULL,
 
       [DTAPDID] [int] NOT NULL,
       
