@@ -31,7 +31,7 @@ steps:
   displayName: 'Execute Azure SQL'
   inputs:
     azureSubscription: 'OptumHackathonPipelineConnection'
-    ServerName: 'dacpac-demo'
+    ServerName: 'dacpac-demo.database.windows.net'
     DatabaseName: 'RMDB'
     SqlUsername: 'dacpac'
     SqlPassword: 'Azure@111'
