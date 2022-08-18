@@ -21,7 +21,7 @@ steps:
   displayName: 'build release anycpu db'
   inputs:
     solution: '**\*.sln' 
-#    vsVersion: 16.0
+    vsVersion: 16.0
     platform: 'any cpu'
     configuration: Release
     clean: true
