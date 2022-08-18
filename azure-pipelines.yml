@@ -9,7 +9,7 @@ trigger:
 # no PR triggers
 pr: none
 
-pool: 'Azure Pipelines'
+pool: 'Self-Hosted'
 
 steps:
 - checkout: self
