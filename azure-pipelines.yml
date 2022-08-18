@@ -35,4 +35,4 @@ steps:
     DatabaseName: 'RMDB'
     SqlUsername: 'dacpac'
     SqlPassword: 'Azure@111'
-    DacpacFile: '$(build.sourcesDirectory)\\RMDB\\bin\\Release\\RMDB.dacpac'
+    DacpacFile: '$(build.sourcesDirectory)\\bin\\Release\\RMDB.dacpac'
