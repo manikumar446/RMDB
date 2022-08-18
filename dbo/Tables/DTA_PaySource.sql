@@ -38,9 +38,11 @@
 
       [TMPSPSID] [bigint] NULL,
 
-      [InExportQueue] [bit] NULL,
+      --[InExportQueue] [bit] NULL,
 
       [DTAPDID] [int] NOT NULL,
+      
+      [Dummy] [int] NOT NULL,
 
 CONSTRAINT [PK_DTA_PaySource] PRIMARY KEY CLUSTERED
 
