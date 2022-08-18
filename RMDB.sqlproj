@@ -8,7 +8,6 @@
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{9d650a38-7430-4d54-9f3a-117e24147828}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureV12DatabaseSchemaProvider</DSP>
-    
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -57,8 +56,13 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="dbo\Tables" />
   </ItemGroup>
   <ItemGroup>
     <None Include="azure-pipelines.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\DTA_PaySource.sql" />
   </ItemGroup>
 </Project>
