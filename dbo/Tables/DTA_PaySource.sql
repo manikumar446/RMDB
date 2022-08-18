@@ -42,9 +42,10 @@
 
       [DTAPDID] [int] NOT NULL,
       
-      [Dummy] [int] NOT NULL,
+      [Dummy] [int] NULL,
 
-CONSTRAINT [PK_DTA_PaySource] PRIMARY KEY CLUSTERED
+[Dummy2] INT NULL, 
+    CONSTRAINT [PK_DTA_PaySource] PRIMARY KEY CLUSTERED
 
 (
 
