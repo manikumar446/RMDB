@@ -28,7 +28,7 @@ steps:
     createLogFile: true
 
 - task: SqlAzureDacpacDeployment@1
-  displayName: Execute Azure SQL : DacpacTask
+  displayName: 'Execute Azure SQL'
   inputs:
     azureSubscription: 'OptumHackathonPipelineConnection'
     ServerName: 'dacpac-demo'
