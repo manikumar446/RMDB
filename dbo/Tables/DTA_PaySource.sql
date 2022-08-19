@@ -40,7 +40,7 @@
 
       [InExportQueue] [bit] NULL,
 
-      [DTAPDID] [int] NOT NULL,
+      [DTAPDid] [int] NOT NULL,
        
     CONSTRAINT [PK_DTA_PaySource] PRIMARY KEY CLUSTERED
 
